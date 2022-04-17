@@ -12,15 +12,10 @@ echo "우분투 테마 설치을 진행합니다.\n"
 git clone https://github.com/vinceliuice/Orchis-theme.git
 cd /Orchis-theme && ./install.sh && cd ..
 
-#커서 : https://github.com/keeferrourke/capitaine-cursors
-git clone https://github.com/keeferrourke/capitaine-cursors.git
-sudo apt install inkscape x11-apps
-cd /Orchis-theme && ./build.sh -t dark && cd ..
-
 #아이콘 : https://github.com/vinceliuice/Colloid-icon-theme
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
 cd /Orchis-theme && ./install.sh && cd ..
 
-rm -rf Colloid-icon-theme capitaine-cursors Orchis-theme
+rm -rf Colloid-icon-theme Orchis-theme
 echo "우분투 기본 설치을 진행완료하였습니다.\n"
 echo "\n=====================================================\n"
