@@ -5,7 +5,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y autoremove
 
 sudo apt-get -y install unzip nano htop wget net-tools ufw mc git
-sudo apt-get -y install gnome-tweak-tool
+sudo apt-get -y install gnome-tweaks
 
 echo "우분투 테마 설치을 진행합니다.\n"
 #테마 : https://github.com/vinceliuice/Orchis-theme
