@@ -12,10 +12,8 @@ echo "우분투 테마 설치을 진행합니다.\n"
 git clone https://github.com/vinceliuice/Orchis-theme.git
 cd Orchis-theme && ./install.sh -y && cd ..
 
-#아이콘 : https://github.com/vinceliuice/Colloid-icon-theme
-git clone https://github.com/vinceliuice/Colloid-icon-theme.git
-cd Colloid-icon-theme && ./install.sh -y && cd ..
+#아이콘 : https://github.com/mayur-m-zambare/Captiva-2.git
 
-rm -rf Colloid-icon-theme Orchis-theme
+rm -rf Orchis-theme
 echo "우분투 기본 설치을 진행완료하였습니다.\n"
 echo "\n=====================================================\n"
